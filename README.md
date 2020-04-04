@@ -1,6 +1,14 @@
 # Creating a Serverless Application Using the AWS CDK
+This example explain how to create a complete (backend) Serverless Application using **AWS CDK**. The application is composed by REST APIs able to read and write data from an AWS S3 bucket. All the AWS services used are:
+- Lambda
+- API Gateway
+- S3
+- Cognito
+- CloudFormation (used by AWS CDK)
 
-https://docs.aws.amazon.com/cdk/latest/guide/serverless_example.html#serverless_example_deploy_and_test
+Ref: https://docs.aws.amazon.com/cdk/latest/guide/serverless_example.html#serverless_example_deploy_and_test
+
+## Install AWS CDK
 
 npm install -g aws-cdk
 cdk --version
