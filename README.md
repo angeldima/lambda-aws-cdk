@@ -5,7 +5,7 @@ https://docs.aws.amazon.com/cdk/latest/guide/serverless_example.html#serverless_
 npm install -g aws-cdk
 cdk --version
 
-##Create a AWS CDK App
+## Create a AWS CDK App
 
 Create the app **ItemService** in the current folder.
 
@@ -37,7 +37,7 @@ You should see output like the following, where CDK-VERSION is the version of th
 		  Modules: "@aws-cdk/cdk=CDK-VERSION,@aws-cdk/cx-api=CDK-VERSION,item_service=0.1.0"
 ```
 
-##Create Lambda Functions
+## Create Lambda Functions
 The next step is to create four Lambda functions to:
 
 - List all items with GET
