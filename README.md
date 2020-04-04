@@ -326,10 +326,10 @@ Before you can deploy your first AWS CDK app containing a lambda function, you m
 
 If the deployment succeeds, save the URL for your server. This URL appears in one of the last lines in the window, where **GUID** is an alphanumeric GUID and **REGION** is your AWS Region. All the API:
 
-GET https://GUID.execute-api-REGION.amazonaws.com/prod
-POST https://GUID.execute-api-REGION.amazonaws.com/prod/item1
-GET https://GUID.execute-api-REGION.amazonaws.com/prod/item1
-DELETE https://GUID.execute-api-REGION.amazonaws.com/prod/item1
+- GET https://GUID.execute-api-REGION.amazonaws.com/prod
+- POST https://GUID.execute-api-REGION.amazonaws.com/prod/item1
+- GET https://GUID.execute-api-REGION.amazonaws.com/prod/item1
+- DELETE https://GUID.execute-api-REGION.amazonaws.com/prod/item1
 
 Remember to test your app by using a valid Token granted by you AWS Cognito User Pool
 
