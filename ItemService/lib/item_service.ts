@@ -23,7 +23,11 @@ export class ItemService extends core.Construct {
 
     const api = new apigateway.RestApi(this, 'items-api', {
       restApiName: 'Item Service',
-      description: 'This service serves items.'
+      description: 'This service serves items.',
+      defaultCorsPreflightOptions: {
+        allowOrigins: apigateway.Cors.ALL_ORIGINS,
+        allowMethods: apigateway.Cors.ALL_METHODS
+      }
     });
 
     const auth = new apigateway.CfnAuthorizer(this, 'APIGatewayAuthorizer', {
